@@ -5,18 +5,18 @@ const Header = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
-                <Navbar.Brand href="/home">React-Bootstrap</Navbar.Brand>
+                <Navbar.Brand className='' href="/home">Fitness Friend</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="me-auto">
-                        <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#pricing">Pricing</Nav.Link>
-                        <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                    <Nav className="ms-auto">
+                        <Nav.Link href="/checkout">Checkout</Nav.Link>
+                        <Nav.Link href="/about">About</Nav.Link>
+                        <NavDropdown title="Blog" id="collasible-nav-dropdown">
+                            <NavDropdown.Item href="#action/3.1">Question 1</NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.2">Question 2</NavDropdown.Item>
+                            <NavDropdown.Divider />
+                            <NavDropdown.Item href="#action/3.3">Question 3</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
                     <Nav>
