@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/Home/Home';
 
 function App() {
   return (
     <div>
-      <h1 className='text-center'>project setup done</h1>
+      <Routes>
+        <Route path='/' element={<Home></Home>}></Route>
+      </Routes>
     </div>
   );
 }
