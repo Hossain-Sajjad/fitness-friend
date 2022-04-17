@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Md Jasim Uddin",
+        "ratings": 3.5,
+        "img": "https://images.unsplash.com/photo-1649058047388-b49c028df9ac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+        "massage": "I have a Sony digital camera that can be used with or without a memory stick. After taking pictures they load onto my laptop, for better viewing, via a data cord from the camera to the laptop, like a thumb drive or by moving the memory stick from the camera to the laptop."
+    },
+    {
+        "id": 2,
+        "name": "Kazi Nazrul",
+        "ratings": 4.5,
+        "img": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "massage": "One of the best mirror less I have ever seen. Excellent for professional shoot. Also worked very well in low light. One of the best one in current market."
+    },
+    {
+        "id": 3,
+        "name": "Tim David",
+        "ratings": 4,
+        "img": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "massage": "The Sony alpha is by far the best camera that you can get for your buck and a steal if you can get a decent deal like I did. The a7 is the first proper camera I have purchased in my life. I had dabbled with photography here and there using cameras that were given to me by relatives, and certainly nothing fancy."
+    },
+    {
+        "id": 4,
+        "name": "Hateul Badi",
+        "ratings": 2.5,
+        "img": "https://images.unsplash.com/photo-1521119989659-a83eee488004?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "massage": "At this time I'm not sure I could recommend buying the Sony Alpha camera. After researching multiple cameras for a dependable, lightweight and powerful cam for traveling I transitioned from my Nikon 3400 DSLR to the Sony A6000 with high hopes. I initially got used to the lens 16-50mm having slightly dark edges and even chalked up the blurred images to my amateurish abilities with a new camera. Unfortunately, what I cannot ignore is how the camera does not always function when needed. "
+    },
+    {
+        "id": 5,
+        "name": "Leo",
+        "ratings": 5,
+        "img": "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cG9ydHJhaXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "massage": "I cannot tell you enough how much I love my Sony camera. It is my most prized possession! This last July I started a travel blog.  However, the jump from iPhone camera to this camera...wow. You will be so amazed!"
+    },
+    {
+        "id": 6,
+        "name": "Hatim Tie",
+        "ratings": 4.1,
+        "img": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBvcnRyYWl0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "massage": "So, I am not sure how to write this review. We had to order this camera twice. The first time we ordered it, it had scratches and appeared used (the cords weren't wrapped neatly or bagged, etc) and they went us the black version when we wanted the silver one. We reordered it and sent it back. The second camera was excellent. We wanted this camera because it is smaller and easy to travel with. "
+    }
+]

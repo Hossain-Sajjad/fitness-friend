@@ -8,7 +8,7 @@ const TopBanner = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4QPDa841Pw4hqBOhbibLQzZGlqe5bHw-49mwMVp1AetqDTxqVQQUsjqNawnVnWSR-lgY&usqp=CAU"
+                        src="https://i.ibb.co/K9Rcb4M/240-F-106667964-Qt2-Vb-Y8-OTwyl-Q5q-Wbrp-SQ1v-WCx4-Ubjfs.jpg"
                         alt="First slide"
                     />
                     <Carousel.Caption>
@@ -19,7 +19,7 @@ const TopBanner = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://t4.ftcdn.net/jpg/03/50/81/89/360_F_350818949_lJTfzSTDr79e9Kn55PUVZjN19ct20uGc.jpg"
+                        src="https://i.ibb.co/k39Jfm7/horizontal-shot-handsome-unshaven-man-has-workout-gym-trains-biceps-with-sport-instructor-wears-acti.webp"
                         alt="Second slide"
                     />
 
@@ -31,7 +31,7 @@ const TopBanner = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOQlGrUyU3ZEhf7_5RK8_ijV9p2vj3O8TzJbWAfVExSCZMIWtBWWFhJ3AaxqXXiNAvkr4&usqp=CAU"
+                        src="https://i.ibb.co/bryLVM6/240-F-333921065-Qjw1-M9h-NNi-VAL5bc0-Smx-Ha-Bofb-TBNThd.jpg"
                         alt="Third slide"
                     />
 
