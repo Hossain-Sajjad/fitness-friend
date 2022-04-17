@@ -4,6 +4,7 @@ import Home from './pages/Home/Home/Home';
 import Header from './pages/Shared/Header/Header';
 import Login from './pages/Login/Login/Login';
 import Register from './pages/Login/Register/Register';
+import CheckOut from './pages/CheckOut/CheckOut';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
+        <Route path='/checkout/:serviceId' element={<CheckOut></CheckOut>}></Route>
       </Routes>
     </div>
   );
