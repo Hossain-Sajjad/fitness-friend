@@ -1,44 +1,44 @@
 [
     {
         "id": "1",
-        "name": "abc def",
-        "price": 420,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
-        "description": "lorem dsrkj nskfnmowerijf wskjefiwjfweiopj wsfjwiejf skjmfcweipofjiejf skcmwseifjwiefjkmspijfe swfjierjwfimjm."
+        "name": "Online Advice",
+        "price": 50,
+        "img": "https://media.istockphoto.com/photos/young-caucasian-woman-going-to-the-gym-picture-id1310614341?b=1&k=20&m=1310614341&s=170667a&w=0&h=Kx1g5tfrR8zW970inDud9fhz6PJkLgLjhk5MnCKN7Ag=",
+        "description": "I will sit down with the information you've given me and create your bespoke training program. This will bring an end to guesswork for you. It will be a 30-minute session."
     },
     {
         "id": "2",
-        "name": "abc def",
-        "price": 420,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
-        "description": "lorem dsrkj nskfnmowerijf wskjefiwjfweiopj wsfjwiejf skjmfcweipofjiejf skcmwseifjwiefjkmspijfe swfjierjwfimjm."
+        "name": "Nutrition Plan",
+        "price": 100,
+        "img": "https://images.unsplash.com/photo-1466637574441-749b8f19452f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bnV0cml0aW9uaXN0fGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "description": "Your custom meal plan for you calculated to the exact caloric and macronutrient intake for your goals with full recipes and weekly shopping list."
     },
     {
         "id": "3",
-        "name": "abc def",
-        "price": 420,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
-        "description": "lorem dsrkj nskfnmowerijf wskjefiwjfweiopj wsfjwiejf skjmfcweipofjiejf skcmwseifjwiefjkmspijfe swfjierjwfimjm."
+        "name": "Customized diet",
+        "price": 120,
+        "img": "https://images.unsplash.com/photo-1532054241088-402b4150db33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bnV0cml0aW9uaXN0fGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "description": "If you want to lose weight / burn fat / gain muscle / recomposition - You've just found the Gig based on scientifically supported and proven methods that works. I'll help you achieve any goals you have!"
     },
     {
         "id": "4",
-        "name": "abc def",
-        "price": 420,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
-        "description": "lorem dsrkj nskfnmowerijf wskjefiwjfweiopj wsfjwiejf skjmfcweipofjiejf skcmwseifjwiefjkmspijfe swfjierjwfimjm."
+        "name": "Personalized workout",
+        "price": 150,
+        "img": "https://images.unsplash.com/photo-1529810313688-44ea1c2d81d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29uYWwlMjB0cmFpbmVyfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "description": "Free consultation before orderingPDF and Excel files with all of the information you will needWorkout program suitable for home and fitness."
     },
     {
         "id": "5",
-        "name": "abc def",
-        "price": 420,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
-        "description": "lorem dsrkj nskfnmowerijf wskjefiwjfweiopj wsfjwiejf skjmfcweipofjiejf skcmwseifjwiefjkmspijfe swfjierjwfimjm."
+        "name": "Yoga lessons",
+        "price": 80,
+        "img": "https://images.unsplash.com/photo-1565270770966-0bc2619d8ecd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHlvZ2ElMjB0cmFpbmVyfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "description": "Whether you're new to yoga or have been practising for some time, my videos can be adapted to your level of practice."
     },
     {
         "id": "6",
-        "name": "abc def",
-        "price": 420,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
-        "description": "lorem dsrkj nskfnmowerijf wskjefiwjfweiopj wsfjwiejf skjmfcweipofjiejf skcmwseifjwiefjkmspijfe swfjierjwfimjm."
+        "name": "Lifetime trainer",
+        "price": "500 per year",
+        "img": "https://images.unsplash.com/photo-1543943477-5db37a34ff18?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bGlmZXRpbWUlMjB0cmFpbmVyfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "description": "So what I provide in the virtual sessions. A training plan customized for your goal (lose fats or building muscles) Step-by-step guidance. How to do each exercise correctly and how to feel the muscle you train."
     }
 ]

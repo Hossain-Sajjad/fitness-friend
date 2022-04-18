@@ -1,9 +1,32 @@
 .service {
     border: 1px solid lightgray;
     border-radius: 20px;
+    position: relative;
 }
 
 .service img {
+    height: 400px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+.info-container {
+    margin-bottom: 40px;
+}
+
+.btn-style {
+    margin-top: 150px;
+    background-color: goldenrod;
+    border: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 00px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.btn-style:hover {
+    background-color: rgb(201, 154, 36);
 }

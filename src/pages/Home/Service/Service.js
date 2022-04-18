@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './Service.css'
 
 const Service = ({ service }) => {
@@ -10,14 +10,16 @@ const Service = ({ service }) => {
         navigate(`/checkout/${id}`);
     }
     return (
-        <div className='service text-center'>
+        <div className='service text-center info-container'>
             <img className='img-fluid' src={img} alt="" />
             <div className='p-2'>
-                <h2>{name}</h2>
-                <h3>{price}</h3>
-                <p>{description}</p>
+                <div className='info-container'>
+                    <h2>{name}</h2>
+                    <h4>$ {price}</h4>
+                    <p>{description}</p>
+                </div>
                 <Button
-                    onClick={() => navigateToCheckout(id)} className='text-decoration-none btn btn-primary'>Check Out</Button>
+                    onClick={() => navigateToCheckout(id)} className='btn-style text-decoration-none w-100'>Check Out</Button>
             </div>
         </div>
     );
