@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { Button, Form } from 'react-bootstrap';
-import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useCreateUserWithEmailAndPassword, useSendPasswordResetEmail } from 'react-firebase-hooks/auth';
 import { Link, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init'
 import Social from '../Social/Social';
@@ -16,6 +16,13 @@ const Register = () => {
         error,
     ] = useCreateUserWithEmailAndPassword(auth);
 
+    const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
+
+    let errorElement;
+    if (error) {
+        errorElement = <p className='text-danger'>Error: {error?.message}</p>;
+    }
+
     if (user) {
         navigate('/home')
     }
@@ -25,6 +32,13 @@ const Register = () => {
         const password = passwordRef.current.value;
         createUserWithEmailAndPassword(email, password)
     }
+
+    const resetPassword = async () => {
+        const email = emailRef.current.value;
+        await sendPasswordResetEmail(email);
+        alert('Sent email');
+    }
+
     return (
         <div className='container'>
             <Form onSubmit={registerBtnSubmit} className='w-50 mx-auto mt-5'>
@@ -40,13 +54,13 @@ const Register = () => {
                     <Form.Label>Password</Form.Label>
                     <Form.Control ref={passwordRef} type="password" placeholder="Password" />
                 </Form.Group>
-                <Button variant="primary" type="submit">
-                    Submit
+                {errorElement}
+                <Button className='w-50 d-block mx-auto' variant="primary" type="submit">
+                    Register
                 </Button>
             </Form>
-            <div className='mt-2 w-50 mx-auto'>
-                <p>Already have a account? <Link to='/login' className='text-decoration-none'>Log In</Link></p>
-            </div>
+            <p className='mt-2 w-50 mx-auto'>Already have a account? <Link to='/login' className='text-decoration-none'>Log In</Link></p>
+            <p className='w-50 mx-auto'>Forget password? <Link to='/register' onClick={resetPassword} className='text-decoration-none'>Reset Password</Link></p>
             <Social></Social>
         </div>
     );

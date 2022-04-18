@@ -14,9 +14,7 @@ const Social = () => {
     let errorElement;
     let loadingElement;
     if (error || error1) {
-        errorElement = <div>
-            <p className='text-danger'>Error: {error?.message} {error1?.message}</p>
-        </div>;
+        errorElement = <p className='text-danger'>Error: {error?.message} {error1?.message}</p>;
     }
     if (loading || loading1) {
         loadingElement = <Loading></Loading>;
