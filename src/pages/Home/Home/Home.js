@@ -1,6 +1,8 @@
 import React from 'react';
+import Contract from '../Contract/Contract';
 import Services from '../Services/Services';
 import TopBanner from '../TopBanner/TopBanner';
+import Footer from '../../Shared/Footer/Footer'
 import './Home.css'
 
 const Home = () => {
@@ -8,6 +10,8 @@ const Home = () => {
         <div>
             <TopBanner></TopBanner>
             <Services></Services>
+            <Contract></Contract>
+            <Footer></Footer>
         </div>
     );
 };
