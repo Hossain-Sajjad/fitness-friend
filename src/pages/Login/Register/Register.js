@@ -3,6 +3,7 @@ import { Button, Form } from 'react-bootstrap';
 import { useCreateUserWithEmailAndPassword, useSendPasswordResetEmail } from 'react-firebase-hooks/auth';
 import { Link, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init'
+import Loading from '../../Shared/Loading/Loading';
 import Social from '../Social/Social';
 
 const Register = () => {
@@ -14,7 +15,7 @@ const Register = () => {
         user,
         loading,
         error,
-    ] = useCreateUserWithEmailAndPassword(auth);
+    ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
 
     const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
 
@@ -22,7 +23,9 @@ const Register = () => {
     if (error) {
         errorElement = <p className='text-danger'>Error: {error?.message}</p>;
     }
-
+    if (loading || sending) {
+        <Loading></Loading>
+    }
     if (user) {
         navigate('/home')
     }
@@ -41,7 +44,8 @@ const Register = () => {
 
     return (
         <div className='container'>
-            <Form onSubmit={registerBtnSubmit} className='w-50 mx-auto mt-5'>
+            <h1 className='w-50 mx-auto mt-2'>Register</h1>
+            <Form onSubmit={registerBtnSubmit} className='w-50 mx-auto mt-3'>
                 <Form.Group className="mb-3" controlId="formBasicName">
                     <Form.Label>Name</Form.Label>
                     <Form.Control type="text" placeholder="Enter your Name" />
