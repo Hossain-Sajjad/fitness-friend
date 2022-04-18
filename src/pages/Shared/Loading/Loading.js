@@ -3,7 +3,7 @@ import { Spinner } from 'react-bootstrap';
 
 const Loading = () => {
     return (
-        <div className='mt-5 d-flex justify-content-center'>
+        <div className='my-5 d-flex justify-content-center'>
             <Spinner animation="border" variant="primary" />
         </div>
     );

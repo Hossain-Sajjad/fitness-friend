@@ -3,6 +3,7 @@ import { Button, Form } from 'react-bootstrap';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
+import Social from '../Social/Social';
 
 const Login = () => {
     const emailRef = useRef('');
@@ -29,7 +30,7 @@ const Login = () => {
         signInWithEmailAndPassword(email, password)
     }
     return (
-        <div>
+        <div className='container'>
             <Form onSubmit={loginBtnSubmit} className='w-50 mx-auto mt-5'>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
@@ -46,6 +47,7 @@ const Login = () => {
             <div className='mt-2 w-50 mx-auto'>
                 <p>Don't have a account? <Link to='/register' className='text-decoration-none'>Register Now</Link></p>
             </div>
+            <Social></Social>
         </div>
     );
 };
